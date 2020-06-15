@@ -3,7 +3,7 @@
 
     function Start()
     {
-        console.log("Seol's App Started...");
+        console.log("Seol's cd App Started...");
 
     }
 
