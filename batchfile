@@ -1,0 +1,8 @@
+#this batch file will sort the raw_data.txt file 
+#and pipe the result into a sorted_data.txt file
+#then it will move the raw_data.txt file
+#into the archive folder and rename it to old_data.txt
+sort raw_data.txt > sorted_data.txt
+echo "sorting data"
+mv raw_data.txt ./archive/old_data.txt
+echo "moved raw_data to archive/old_data.txt"
